@@ -25,5 +25,14 @@ namespace Calculator2
             ketqua = a + b;
             txtKetqua.Text = ketqua.ToString();
         }
+
+        private void btTru_Click(object sender, EventArgs e)
+        {
+            int a, b, ketqua;
+            a = int.Parse(txta.Text);
+            b = int.Parse(txtb.Text);
+            ketqua = a - b;
+            txtKetqua.Text = ketqua.ToString();
+        }
     }
 }
